@@ -241,7 +241,7 @@ fieldset {
   }
 
   .busqueda input[type="text"] {
-    width: 250px;
+    width: 100px;
     height: 20px;
     font-size: 8px;
   }
@@ -277,5 +277,9 @@ fieldset {
   }
   .logo img {
     height: 100px;
+  }
+
+  .logo {
+    margin: 0 100px 20px 0;
   }
 }
