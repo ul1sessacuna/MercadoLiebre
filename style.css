@@ -52,6 +52,9 @@ header {
   padding: 10px;
   box-shadow: 0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
+.search-button i {
+  font-size: 16px;
+}
 .busqueda button {
   height: 40px;
   width: 50px;
@@ -230,10 +233,15 @@ fieldset {
   background-color: #fff;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .busqueda button {
     height: 20px;
     width: 25px;
+    box-shadow: none;
+  }
+
+  button .search-button i {
+    font-size: 5px;
   }
 
   .logo img {
@@ -241,10 +249,11 @@ fieldset {
   }
 
   .busqueda input[type="text"] {
-    width: 150px;
+    width: 190px;
     height: 20px;
-    font-size: 8px;
-    margin-left: 20px;
+    font-size: 10px;
+    margin-left: 60px;
+    box-shadow: none;
   }
 
   .navbar .links {
@@ -282,5 +291,85 @@ fieldset {
 
   .logo {
     margin: 0 100px 20px 0;
+  }
+
+  .historia {
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .historia p {
+    width: 400px;
+    display: inline-block;
+    justify-content: center;
+  }
+
+  .historia h2 {
+    font-size: 20px;
+  }
+
+  .ayudamain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid black;
+    margin-bottom: 80px;
+    padding: 20px;
+    border-radius: 3px;
+    width: 400px;
+  }
+  .ayudamain h1 {
+    font-size: 25px;
+  }
+  #nombre {
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    margin: 5px;
+  }
+
+  #apellido {
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    margin: 5px;
+  }
+
+  fieldset {
+    width: 300px;
+    height: 50px;
+    border-radius: 3px;
+    margin: 5px;
+  }
+
+  #email {
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    margin: 5px;
+  }
+
+  #coment {
+    width: 300px;
+    margin: 5px;
+    border-radius: 3px;
+  }
+
+  #enviar {
+    width: 50px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 15px;
+    border-radius: 4px;
+    background-color: #fff;
   }
 }
