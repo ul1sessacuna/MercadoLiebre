@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link />
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ayuda</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="logo">
+          <a href="index.html"><img src="imagenes/logo.png" alt="" /></a>
+        </div>
+      </div>
+
+      <div class="navbar">
+        <div class="busqueda">
+          <form action="busco">
+            <input type="text" placeholder="Buscar Productos..." name="busco" />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+        <ul class="links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#contenedor-productos">Productos</a></li>
+          <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+          <li><a href="ayuda.html">Ayuda</a></li>
+        </ul>
+      </div>
+      <i class="e8cc"></i>
+    </header>
+    <main class="ayudamain">
+      <h1>DEJANOS TU INCONVENIENTE</h1>
+      <form class="form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+
+        <label for="apellido">Apellido:</label>
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Apellido"
+        />
+        <fieldset>
+          <legend>Cual es tu problema</legend>
+          <label for="envio">Envio</label>
+          <input type="radio" name="errorenvio" value="envio" id="envio" />
+
+          <label for="envio">Compra</label>
+          <input type="radio" name="errorcompra" value="compra" id="compra" />
+
+          <label for="envio">Venta</label>
+          <input type="radio" name="errorventa" value="venta" id="venta" />
+        </fieldset>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Introduce tu correo electronico..."
+        />
+        <label for="comentario">Dejanos tu problema aqui</label>
+        <textarea name="comentario" id="coment" rows="4" cols="50"></textarea>
+
+        <input type="submit" id="enviar" value="Enviar"">
+      </form>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+        <ul class="contenido">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Ayuda</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
