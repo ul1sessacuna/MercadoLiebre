@@ -146,10 +146,11 @@ header {
   width: 800px;
   display: inline-block;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .historia h2 {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .footer {
