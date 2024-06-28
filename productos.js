@@ -143,6 +143,72 @@ const productos = [
         "name": "Zapatillas Sneakers Hombre Urbanas Zapatos Botas Cómodas",
         title: "$82340"
     },
+    {
+        "image": "https://http2.mlstatic.com/D_Q_NP_768175-MLU69268316907_052023-P.webp",
+        "type": "imagen",
+        "name": "Motosierra A Nafta Lusqtoff Garden Plus 52cc Prom-52 2.5hp",
+        title: "$144000"
+    },
+    {
+        "image": "https://http2.mlstatic.com/D_NQ_NP_847900-MLU72829953551_112023-O.webp",
+        "type": "imagen",
+        "name": "Motosierra Passion 52cc 18 Pulgadas Con Espada De 45 Cm",
+        title: "$120400"
+    },
+    {
+        "image": "https://http2.mlstatic.com/D_NQ_NP_795976-MLU72997268519_112023-O.webp",
+        "type": "imagen",
+        "name": "Kit Destornillador 32 En 1 Notebook Celulares Computadora Pc",
+        title: "$6119"
+    },
+    {
+        "image": "https://http2.mlstatic.com/D_NQ_NP_863158-MLU73573626911_122023-O.webp",
+        "type": "imagen",
+        "name": "Kit Herramientas Broca Y Dados Para Destornillador Portatil",
+        title: "$6100"
+    },
+    {
+        "image": "https://http2.mlstatic.com/D_NQ_NP_906324-MLA74370036955_022024-O.webp",
+        "type": "imagen",
+        "name": "Juego Set Kit Llaves Tubo 23 Piezas Lechgtools",
+        title: "$8234"
+    },
+    {
+        "image": "https://http2.mlstatic.com/D_NQ_NP_609016-MLU72827404770_112023-O.webp",
+        "type": "imagen",
+        "name": "Llave Francesa 10'' Inglesa Ajustable Fosfatizada",
+        title: "$10999"
+    },
+    {
+        "image": "https://http2.mlstatic.com/D_NQ_NP_925404-MLA72625572186_112023-O.webp",
+        "type": "imagen",
+        "name": "Set Juego Llaves Torx Bahco Largas Punta Redondeada 8 Piezas",
+        title: "$43180"
+    },
+    {
+        "image": "https://http2.mlstatic.com/D_NQ_NP_636477-MLU70651490787_072023-O.webp",
+        "type": "imagen",
+        "name": "Jurassic World Sound Surge Indominus Rex Mattel",
+        title: "$9340"
+    },
+    {
+        "image": "https://http2.mlstatic.com/D_NQ_NP_993899-MLU72409274746_102023-O.webp",
+        "type": "imagen",
+        "name": "Jurassic World Indominus Rex Mattel 56cm",
+        title: "$23404"
+    },
+    {
+        "image": "https://http2.mlstatic.com/D_NQ_NP_914320-MLU74057251446_012024-O.webp",
+        "type": "imagen",
+        "name": "Star Wars Darth Vader Máscara Electrónica F5781 Wabro",
+        title: "$43900"
+    },
+    {
+        "image": "https://http2.mlstatic.com/D_NQ_NP_864611-MLA49239452155_032022-O.webp",
+        "type": "imagen",
+        "name": "Baby Yoda Grogu Mattel Animatronico A Control Remoto",
+        title: "$54672"
+    },
 
     
     
