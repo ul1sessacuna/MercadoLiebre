@@ -294,7 +294,7 @@ fieldset label input {
   }
 
   .navbar .links {
-    font-size: 8px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
   }
@@ -368,45 +368,52 @@ fieldset label input {
   }
   .ayudamain h1 {
     font-size: 20px;
+    margin-bottom: 15px;
   }
   #nombre {
-    width: 200px;
+    width: 300px;
     height: 30px;
-    border-radius: 3px;
+    border-radius: 20px;
     margin: 5px;
+    outline: none;
   }
 
   #apellido {
-    width: 200px;
+    width: 300px;
     height: 30px;
-    border-radius: 3px;
+    border-radius: 20px;
     margin: 5px;
+    outline: none;
   }
 
   fieldset {
     width: 300px;
     height: 50px;
-    border-radius: 3px;
+    border-radius: 20px;
     margin: 5px;
+    padding-right: 35px;
+    outline: none;
   }
 
   #email {
-    width: 200px;
+    width: 300px;
     height: 30px;
-    border-radius: 3px;
+    border-radius: 20px;
     margin: 5px;
+    outline: none;
   }
 
   #coment {
     width: 300px;
     margin: 5px;
     border-radius: 3px;
+    outline: none;
   }
 
   #enviar {
     width: 50px;
     height: 30px;
-    margin-left: 150px;
+    margin-left: 130px;
     margin-top: 15px;
     border-radius: 4px;
     background-color: #fff;
@@ -424,7 +431,7 @@ fieldset label input {
   }
 
   .footer p {
-    font-size: 13spx;
+    font-size: 13px;
     color: rgb(165, 165, 165);
   }
 
